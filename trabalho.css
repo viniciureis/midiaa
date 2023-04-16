@@ -1,0 +1,43 @@
+.blac{
+  background: black;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+ margin-top: -10px;
+
+ 
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding-right: 20px;
+  
+ 
+}
+.logo{
+  height: 100px;
+  opacity: 0.5;
+}
+a{
+  text-decoration: none;
+  color:#ff0000;}
+  a:hover{
+    color: rgb(255, 196, 0);
+    }
+h1{
+  color: black;
+}
+ul{
+  list-style: none;
+  color: white;}
+  ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+   }
