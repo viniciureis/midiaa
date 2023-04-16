@@ -218,11 +218,67 @@ footer{
   width: 14%;
 padding-left:20px ;
 }
-@media(min-width:300px){
+@media(min-width:300px) and ( max-width:500px){
+  *{
+   margin-left: 0px;
+     margin-right: 0px;
+  }
   .van{
-margin-left: 450px;
+display: none;
   }
   body{
     width: 98.75%;
   }
+ .happy1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+ }
+ .imga{
+  height: 590px;
+  
+ }
+ .logo{
+ display: none;
+ 
+ }
+ .header-menu{
+  font-size: 20px;
+  margin-top: -10px;
+  padding-top: -30px;
+ }
+ li{
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+ }
+ ul{
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+ }
+ .grid1{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+ .grid2{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+ .grid{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+ .bg{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+ .happy{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+ .gf{
+  width: 300px;
+ }
+
 }
