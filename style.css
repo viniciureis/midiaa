@@ -223,6 +223,9 @@ padding-left:20px ;
   .van{
 display: none;
   }
+  body{
+    width: 100%;
+  }
   
  .happy1{
   display: flex;
