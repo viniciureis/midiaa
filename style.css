@@ -263,6 +263,7 @@ display: none;
  .grid{
   display: grid;
   grid-template-columns: 1fr;
+ 
  }
  .bg{
   display: grid;
@@ -274,6 +275,12 @@ display: none;
  }
  .gf{
   width: 300px;
+  padding-left: 30px;
  }
-
+ .gf1{
+  padding-left: 50px;
+ }
+p{
+  padding-left: 50px;
+}
 }
