@@ -219,10 +219,7 @@ footer{
 padding-left:20px ;
 }
 @media(min-width:300px) and ( max-width:500px){
-  *{
-   margin-left: 0px;
-     margin-right: 0px;
-  }
+ 
   .van{
 display: none;
   }
