@@ -177,6 +177,7 @@ padding-left: 40px;
 .gf1{
   width: 69%;
   padding-top: 40px;
+  
 }
 .logo{
   height: 100px;
@@ -217,6 +218,9 @@ footer{
 .logo12{
   width: 14%;
 padding-left:20px ;
+}
+.pg{
+  color: white;
 }
 @media(min-width:300px) and ( max-width:500px){
  
@@ -288,3 +292,4 @@ p{
   padding-left: 50px;
 }
 }
+
