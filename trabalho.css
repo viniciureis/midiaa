@@ -191,8 +191,11 @@ flex-direction: column;
     grid-template-columns: 1fr;
     height: 800px;
     width: 100vw;
+    margin-left: 10px;
    }
-   
+   .conte{
+    width: 80%;
+   }
 }
 
 
