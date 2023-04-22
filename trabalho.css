@@ -193,8 +193,45 @@ flex-direction: column;
     width: 100vw;
     margin-left: 10px;
    }
-   .conte{
-    width: 80%;
+   i{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+   }
+   ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+   }
+   .grid1{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .grid2{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 800px;
+    width: 100vw;
+   }
+   .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+   }
+   .bg{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .happy{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .gf{
+    width: 300px;
+    padding-left: 30px;
+   }
+   .gf1{
+    padding-left: 50px;
    }
 }
 
