@@ -12,6 +12,7 @@
     gap: 30px;
     justify-content: space-between;
    margin-top: -10px;
+   background-color: black;
   
    
   }
@@ -170,6 +171,11 @@ margin-left: 150px;
   display: grid;
   grid-template-columns: 1fr;
  }
-
-
+.header{
+  width: 102.2%;
+}
+footer{
+  margin-left: -10px;
+  width: 102%;
+}
   }
