@@ -124,9 +124,10 @@ flex-direction: column;
   display: grid;
   grid-template-columns: 1fr;
   background: black;
-  margin-left: -20px;
-  width: 100%;
+  margin-left: -10px;
+  width: 90%;
   height: 800px;
+  padding-left: 35px;
 }
 .conte{
 width: 101vw;
@@ -135,11 +136,16 @@ width: 101vw;
   width: 100vw;
 }
 footer{
-  width: 98vw;
+  width: 98.2vw;
   background: black;
 }
 ul,li{
   padding-left: 20px;
+  text-align: center;
+  
+}
+a{
+  text-decoration: none;
 }
    }
 
