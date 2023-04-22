@@ -227,6 +227,11 @@
         .header{
           width: 100vw;
         }
+        footer{
+          background-color: black;
+          width: 100vw;
+          height: 100vw;
+        }
     }
     
     
