@@ -134,6 +134,13 @@ width: 101vw;
 .header{
   width: 100vw;
 }
+footer{
+  width: 100vw;
+  background: black;
+}
+ul,li{
+  padding-left: 20px;
+}
    }
 
 
