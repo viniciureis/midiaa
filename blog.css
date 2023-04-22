@@ -195,8 +195,7 @@
          .grid2{
           display: grid;
           grid-template-columns: 1fr;
-          height: 800px;
-          width: 100vw;
+       
          }
          .grid{
           display: grid;
@@ -219,7 +218,7 @@
           padding-left: 50px;
          }
         p{
-          padding-left: 50px;
+          padding-left: 5px;
         }
         .a{
           padding-top: 30px;
@@ -229,7 +228,7 @@
         }
         footer{
           background-color: black;
-          width: 100vw;
+          width: 97%;
           height: 800px;padding-left: 30px;
         }
     }
