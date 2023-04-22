@@ -110,130 +110,28 @@ flex-direction: column;
 
 
 .img{
-  width: 250px;
+  width: 150px;
  margin-left: 40px;
 }
 .img:hover{
-  width: 400px;
+  width: 200px;
 }
 .text{
   margin-left: -50px;
 }
-.logo{
-  height: 80px;
-  display: none;
-}
 
- .imga{
-  height: 590px;
-  
- }
- .logo{
- display: none;}
- .div{
-  display: flex;
-  flex-direction: column;
-  padding-left: 30px;
-}
-.logo{
-  display: none;
-}
-
-.div{
-  display: flex;
-  flex-direction: column;
-  padding-left: 30px;
-}
-.logo{
-  display: none;
-}
 .grid2{
   display: grid;
   grid-template-columns: 1fr;
   background: black;
+  margin-left: -20px;
+  width: 90vw;
 }
-.van{
-  display: none;
-    }
+.conte{
+width: 99vw;
+}
+   }
 
-    
-   .happy1{
-    display: flex;
-    flex-direction: column;
-    padding-left: 10px;
-   }
-   .imga{
-    height: 590px;
-    
-   }
-   .logo{
-   display: none;
-   
-   }
-   .header-menu{
-    font-size: 20px;
-    margin-top: -10px;
-    padding-top: -30px;
-   }
-   li{
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-   }
-   ul{
-    display: flex;
-    flex-direction: row;
-    font-size: 30px;
-   }
- 
-   .grid2{
-    display: grid;
-    grid-template-columns: 1fr;
-    height: 800px;
-    width: 100vw;
-    margin-left: 10px;
-   }
-   i{
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-   }
-   ul{
-    display: flex;
-    flex-direction: row;
-    font-size: 30px;
-   }
-   .grid1{
-    display: grid;
-    grid-template-columns: 1fr;
-   }
-   .grid2{
-    display: grid;
-    grid-template-columns: 1fr;
-    height: 800px;
-    width: 100vw;
-   }
-   .grid{
-    display: grid;
-    grid-template-columns: 1fr;
-   
-   }
-   .bg{
-    display: grid;
-    grid-template-columns: 1fr;
-   }
-   .happy{
-    display: grid;
-    grid-template-columns: 1fr;
-   }
-   .gf{
-    width: 300px;
-    padding-left: 30px;
-   }
-   .gf1{
-    padding-left: 50px;
-   }
-}
 
 
 
