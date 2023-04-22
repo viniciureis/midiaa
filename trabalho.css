@@ -114,7 +114,7 @@ flex-direction: column;
  margin-left: 40px;
 }
 .img:hover{
-  width: 200px;
+  width: 350px;
 }
 .text{
   margin-left: -50px;
@@ -125,7 +125,7 @@ flex-direction: column;
   grid-template-columns: 1fr;
   background: black;
   margin-left: -20px;
-  width: 100vw;
+  width: 101vw;
 }
 .conte{
 width: 100vw;
