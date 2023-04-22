@@ -129,8 +129,17 @@ flex-direction: column;
   
  }
  .logo{
- display: none;
+ display: none;}
  .div{
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.logo{
+  display: none;
+}
+
+.div{
   display: flex;
   flex-direction: column;
   padding-left: 30px;
@@ -141,13 +150,12 @@ flex-direction: column;
 .grid2{
   display: grid;
   grid-template-columns: 1fr;
+  background: black;
 }
 .van{
   display: none;
     }
-    body{
-      width: 99%;
-    }
+
     
    .happy1{
     display: flex;
@@ -177,43 +185,28 @@ flex-direction: column;
     flex-direction: row;
     font-size: 30px;
    }
-   .grid1{
-    display: grid;
-    grid-template-columns: 1fr;
-   }
+ 
    .grid2{
     display: grid;
     grid-template-columns: 1fr;
     height: 800px;
     width: 100vw;
    }
-   .grid{
-    display: grid;
-    grid-template-columns: 1fr;
    
-   }
-   .bg{
-    display: grid;
-    grid-template-columns: 1fr;
-   }
-   .happy{
-    display: grid;
-    grid-template-columns: 1fr;
-   }
-   .gf{
-    width: 300px;
-    padding-left: 30px;
-   }
-   .gf1{
-    padding-left: 50px;
-   }
-  p{
-    padding-left: 50px;
-  }
- 
- }
+}
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
 
   
-  }
+  
