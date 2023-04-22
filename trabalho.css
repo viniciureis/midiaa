@@ -1,6 +1,6 @@
 .header-bg {
 
-  width: 101.2%;
+  width: 101.1%;
   margin-left: -8px;
   }
   body{
@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     gap: 30px;
     justify-content: space-between;
-   margin-top: -10px;
+   
    background-color: black;
   
    
@@ -177,9 +177,7 @@ margin-left: 150px;
 .van{
   display: none;
     }
-    body{
-      width: 99%;
-    }
+   
     
    .happy1{
     display: flex;
@@ -208,6 +206,7 @@ margin-left: 150px;
     display: flex;
     flex-direction: row;
     font-size: 30px;
+    
    }
    .grid1{
     display: grid;
