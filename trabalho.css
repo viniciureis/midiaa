@@ -1,6 +1,6 @@
 .header-bg {
 
-  width: 101.1%;
+  width: 101.2%;
   margin-left: -8px;
   }
   body{
@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     gap: 30px;
     justify-content: space-between;
-   
+   margin-top: -10px;
    background-color: black;
   
    
@@ -26,11 +26,17 @@
     
    
   }
-  a{
+.a{
   text-decoration: none;
-  color:#ff0000;
-  
+color: aqua;
+}
+.a:hover{
+  color: yellow;
+}
+  .logo{
+    height: 80px;
   }
+  
 .flex{
   display: flex;
 flex-direction: row;
@@ -82,6 +88,7 @@ button{
   gap: 20px;
 }
 
+
 .logo12{
   width: 14%;
 padding-left:20px ;
@@ -100,12 +107,7 @@ flex-direction: column;
   width: 104.9%;
 
 }
-.grid2{
-  display: grid;
-  grid-template-columns: 1fr;
-  height: 790px;
-  background: black;
- }
+
 
 .img{
   width: 250px;
@@ -119,65 +121,33 @@ flex-direction: column;
 }
 .logo{
   height: 80px;
+  display: none;
 }
-ul{
-  margin-top: -60px;
-margin-left: 150px;
-}
-.happy1{
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
- }
+
  .imga{
   height: 590px;
   
  }
  .logo{
  display: none;
- 
- }
- .header-menu{
-  font-size: 20px;
-  margin-top: -10px;
-  padding-top: -30px;
- }
- li{
-  font-size: 20px;
+ .div{
   display: flex;
-  flex-direction: row;
- }
- ul{
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
- }
- .grid1{
+  flex-direction: column;
+  padding-left: 30px;
+}
+.logo{
+  display: none;
+}
+.grid2{
   display: grid;
   grid-template-columns: 1fr;
- }
- .grid2{
-  display: grid;
-  grid-template-columns: 1fr;
-  height: 780px;
-  background: black;
- }
- .grid{
-  display: grid;
-  grid-template-columns: 1fr;
- 
- }
- .bg{
-  display: grid;
-  grid-template-columns: 1fr;
- }
-.header{
-  width: 102.2%;
 }
 .van{
   display: none;
     }
-   
+    body{
+      width: 99%;
+    }
     
    .happy1{
     display: flex;
@@ -206,7 +176,6 @@ margin-left: 150px;
     display: flex;
     flex-direction: row;
     font-size: 30px;
-    
    }
    .grid1{
     display: grid;
@@ -215,7 +184,8 @@ margin-left: 150px;
    .grid2{
     display: grid;
     grid-template-columns: 1fr;
-    height: 790px;
+    height: 800px;
+    width: 100vw;
    }
    .grid{
     display: grid;
@@ -240,5 +210,10 @@ margin-left: 150px;
   p{
     padding-left: 50px;
   }
+ 
+ }
+
+ 
+
   
   }
