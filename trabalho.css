@@ -144,7 +144,7 @@ width: 100.5vw;
 footer{
   width: 100vw;
   background: black;
-  height: 840px;
+  height: 100vh;
 }
 ul,li{
   padding-left: 20px;
