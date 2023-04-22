@@ -197,7 +197,8 @@
          .grid2{
           display: grid;
           grid-template-columns: 1fr;
-          height: 790px;
+          height: 800px;
+          width: 100vw;
          }
          .grid{
           display: grid;
