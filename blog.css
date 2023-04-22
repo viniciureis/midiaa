@@ -158,9 +158,7 @@
       .van{
         display: none;
           }
-          body{
-            width: 99%;
-          }
+      
           
          .happy1{
           display: flex;
@@ -223,7 +221,9 @@
         p{
           padding-left: 50px;
         }
-        
+        .a{
+          padding-top: 30px;
+        }
     }
     
     
