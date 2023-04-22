@@ -125,10 +125,13 @@ flex-direction: column;
   grid-template-columns: 1fr;
   background: black;
   margin-left: -20px;
-  width: 90vw;
+  width: 100vw;
 }
 .conte{
-width: 99vw;
+width: 100vw;
+}
+.header{
+  width: 100vw;
 }
    }
 
