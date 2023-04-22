@@ -266,7 +266,7 @@ display: none;
  .grid2{
   display: grid;
   grid-template-columns: 1fr;
-  height: 780px;
+  height: 790px;
  }
  .grid{
   display: grid;
@@ -291,5 +291,6 @@ display: none;
 p{
   padding-left: 50px;
 }
+
 }
 

@@ -65,6 +65,29 @@ button{
   border-color: red;
   border-radius: 30px;
 }
+.logo1{
+  width: 30%;
+}
+.font2{
+  color: aliceblue;
+}
+.pg{
+  font-size: 15px;
+  margin-left: -20px;
+}
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.logo12{
+  width: 14%;
+padding-left:20px ;
+}
+.pg{
+  color: white;
+}
 
   @media(min-width:300px) and ( max-width:511px){
 .flex{
@@ -76,6 +99,12 @@ flex-direction: column;
   width: 104.9%;
 
 }
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 790px;
+  background: black;
+ }
 
 .img{
   width: 250px;
@@ -94,4 +123,53 @@ ul{
   margin-top: -60px;
 margin-left: 150px;
 }
+.happy1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+ }
+ .imga{
+  height: 590px;
+  
+ }
+ .logo{
+ display: none;
+ 
+ }
+ .header-menu{
+  font-size: 20px;
+  margin-top: -10px;
+  padding-top: -30px;
+ }
+ li{
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+ }
+ ul{
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+ }
+ .grid1{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+ .grid2{
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 780px;
+  background: black;
+ }
+ .grid{
+  display: grid;
+  grid-template-columns: 1fr;
+ 
+ }
+ .bg{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+
+
   }

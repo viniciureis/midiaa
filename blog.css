@@ -1,132 +1,67 @@
 .header-bg {
 
-  width: 101.2%;
-  margin-left: -8px;
-  }
-  body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  .header {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: space-between;
-   margin-top: -10px;
-   background-color: black;
-  
-   
-  }
-  
-  .header-menu {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    list-style: none;
-    padding-right: 20px;
-    
-   
-  }
-.a{
-  text-decoration: none;
-color: aqua;
-}
-.a:hover{
-  color: yellow;
-}
-  .logo{
-    height: 80px;
-  }
-  .conte{
-    text-align: center;
-  }
-.img{
-  width: 200px;
-}
-.para{
-  font-size: 15px;
-}
-.div{
-  display: flex;
-  gap: 50px;
-}
-  footer{
-    background-color: black;
-    width: 101.3%;
-    margin-left: -10px;
-  }
-  .grid1{
-    display: grid;
-    grid-template-columns: 300px 200px;
-  }
-  .grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-   
-  }
-  .grid2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-  }
-  
-  .pg{
-    color: white;}
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    .fonte{
-      color: white;
-      padding-top: 50px;
-      font-size: 30px; padding-left: 20px;
+    width: 101.2%;
+    margin-left: -8px;
     }
-   
+    body{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: space-between;
+     margin-top: -10px;
+     background-color: black;
     
-    .happy{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+     
+    }
+    
+    .header-menu {
+      display: flex;
+      flex-wrap: wrap;
       gap: 20px;
+      list-style: none;
+      padding-right: 20px;
+      
+     
     }
-   
-   
-    
-    
-    .grid1{
-      display: grid;
-      grid-template-columns: 300px 200px;
-    }
-   
-  
-  
-    
+  .a{
+    text-decoration: none;
+  color: aqua;
+  }
+  .a:hover{
+    color: yellow;
+  }
     .logo{
-      height: 100px;
-      opacity: 0.5;
+      height: 80px;
     }
-    
+    .conte{
+      text-align: center;
+    }
+  .img{
+    width: 200px;
+  }
+  .para{
+    font-size: 15px;
+  }
+  .div{
+    display: flex;
+    gap: 50px;
+  }
     footer{
       background-color: black;
       width: 101.3%;
       margin-left: -10px;
     }
-    .logo1{
-      width: 30%;
+    .grid1{
+      display: grid;
+      grid-template-columns: 300px 200px;
     }
-    .font2{
-      color: aliceblue;
-    }
-    .pg{
-      font-size: 15px;
-      margin-left: -20px;
+    .grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+     
     }
     .grid2{
       display: grid;
@@ -134,42 +69,103 @@ color: aqua;
       gap: 20px;
     }
     
-    .logo12{
-      width: 14%;
-    padding-left:20px ;
-    }
     .pg{
-      color: white;
+      color: white;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      .fonte{
+        color: white;
+        padding-top: 50px;
+        font-size: 30px; padding-left: 20px;
+      }
+     
+      
+      .happy{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+     
+     
+      
+      
+      .grid1{
+        display: grid;
+        grid-template-columns: 300px 200px;
+      }
+     
+    
+    
+      
+      .logo{
+        height: 100px;
+        opacity: 0.5;
+      }
+      
+      footer{
+        background-color: black;
+        width: 101.3%;
+        margin-left: -10px;
+      }
+      .logo1{
+        width: 30%;
+      }
+      .font2{
+        color: aliceblue;
+      }
+      .pg{
+        font-size: 15px;
+        margin-left: -20px;
+      }
+      .grid2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+      }
+      
+      .logo12{
+        width: 14%;
+      padding-left:20px ;
+      }
+      .pg{
+        color: white;
+      }
+    
+      @media(min-width:300px) and ( max-width:511px){
+      .div{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+      }
+      .logo{
+        display: none;
+      }
+      .grid2{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
     }
-  
-    @media(min-width:300px) and ( max-width:511px){
-    .div{
-      display: flex;
-      flex-direction: column;
-      padding-left: 30px;
-    }
-    .logo{
-      display: none;
-    }
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
