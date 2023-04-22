@@ -266,7 +266,7 @@ display: none;
  .grid2{
   display: grid;
   grid-template-columns: 1fr;
-  height: 700px;
+  height: 780px;
  }
  .grid{
   display: grid;
