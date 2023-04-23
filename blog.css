@@ -46,7 +46,8 @@
     font-size: 15px;
   }
   .div{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
     gap: 50px;
   }
     footer{
@@ -145,8 +146,8 @@
     
       @media(min-width:300px) and ( max-width:511px){
       .div{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+       grid-template-columns: 1fr;
         padding-left: 30px;
       }
       .logo{
@@ -230,7 +231,8 @@
         footer{
           background-color: black;
           width: 97%;
-          height: 100vh;padding-left: 30px;
+          height:840px ;
+          padding-left: 30px;
         }
     }
     
