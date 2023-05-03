@@ -83,6 +83,9 @@ span{
 .h2{
 margin-left: 300px;
 }
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 @media(min-width:300px) and ( max-width:511px){
   .header{
