@@ -305,5 +305,9 @@ p{
    .header{
     width: 100vw;
   }
-  
+  footer{
+    background-color: black;
+    width: 100%;
+    margin-left: -10px;
+  }
   }
