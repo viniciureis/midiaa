@@ -18,7 +18,10 @@ a{
 
 p{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}.header-bg {
+}
+
+
+.header-bg {
 
     width: 101.2%;
     margin-left: -8px;
@@ -135,6 +138,7 @@ p{
   }
   
   
+
   .text{
     margin-left: -50px;
   }
@@ -144,7 +148,7 @@ p{
     grid-template-columns: 1fr;
     background: black;
     margin-left: -10px;
-
+  
     height: 800px;
     padding-left: 35px;
   }
@@ -155,11 +159,15 @@ p{
     width: 100vw;
   }
   footer{
-    width: 100%;
+    width: 100vw;
     background: black;
     height: 100vh;
   }
-
+  ul,li{
+    padding-left: 20px;
+    text-align: center;
+    
+  }
   a{
     text-decoration: none;
   }
