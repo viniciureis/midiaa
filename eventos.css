@@ -144,7 +144,7 @@ p{
     grid-template-columns: 1fr;
     background: black;
     margin-left: -10px;
-    width: 90%;
+
     height: 800px;
     padding-left: 35px;
   }
@@ -155,7 +155,7 @@ p{
     width: 100vw;
   }
   footer{
-    width: 100vw;
+    width: 100%;
     background: black;
     height: 100vh;
   }
