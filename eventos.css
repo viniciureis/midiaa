@@ -18,4 +18,151 @@ a{
 
 p{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+}.header-bg {
+
+    width: 101.2%;
+    margin-left: -8px;
+    }
+    body{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: space-between;
+     margin-top: -10px;
+     background-color: black;
+    
+     
+    }
+    
+    .header-menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      list-style: none;
+      padding-right: 20px;
+      
+     
+    }
+  .a{
+    text-decoration: none;
+  color: aqua;
+  }
+  .a:hover{
+    color: yellow;
+  }
+    .logo{
+      height: 80px;
+    }
+    
+  .flex{
+    display: flex;
+  flex-direction: row;
+  padding-bottom: 70px;
+  
+  }
+  .img{
+    width: 500px;
+   
+   border-radius: 50px;
+  }
+  .text{
+    padding-left: 100px;
+  }
+  .img:hover{
+    width: 600px;
+    transition: 3s;
+  }
+  .conte{
+    padding-left: 200px;
+    background: rgba(0, 0, 255, 0.433);
+    padding-top: 40px;
+    margin-left: -10px;
+   width: 86.8%;
+  }
+  .p{
+   font-size: 20px;
+  }
+  button{
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    border-color: red;
+    border-radius: 30px;
+  }
+  .logo1{
+    width: 30%;
+  }
+  .font2{
+    color: aliceblue;
+  }
+  .pg{
+    font-size: 15px;
+    margin-left: -20px;
+  }
+  .grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  
+  .logo12{
+    width: 14%;
+  padding-left:20px ;
+  }
+  .pg{
+    color: white;
+  }
+  footer{
+    background: black;
+    height: 280px;
+    margin-left: -8px;
+    width: 101.5%;
+  }
+  
+    @media(min-width:300px) and ( max-width:511px){
+  .flex{
+  display: flex;
+  flex-direction: column;
+  }
+  .conte{
+    padding-left: 0px;
+    width: 104.9%;
+  
+  }
+  
+  
+  .text{
+    margin-left: -50px;
+  }
+  
+  .grid2{
+    display: grid;
+    grid-template-columns: 1fr;
+    background: black;
+    margin-left: -10px;
+    width: 90%;
+    height: 800px;
+    padding-left: 35px;
+  }
+  .conte{
+  width: 100.5vw;
+  }
+  .header{
+    width: 100vw;
+  }
+  footer{
+    width: 100vw;
+    background: black;
+    height: 100vh;
+  }
+
+  a{
+    text-decoration: none;
+  }
+     }
+  
+  
