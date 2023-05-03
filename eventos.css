@@ -1,3 +1,17 @@
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding-right: 20px;
+    padding-top: 30px;
+   
+  }
+  .header-bg {
+
+    width: 1349.4px;
+    margin-left: -8px;
+    }
 ul{
 
     font-size: 20px;
@@ -21,79 +35,159 @@ p{
 }
 
 
-.header-bg {
-
-    width: 101.2%;
-    margin-left: -8px;
-    }
-    body{
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    .header {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-      justify-content: space-between;
-     margin-top: -10px;
-     background-color: black;
-    
-     
-    }
-    
-    .header-menu {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      list-style: none;
-      padding-right: 20px;
-      
-     
-    }
-  .a{
-    text-decoration: none;
-  color: aqua;
+.fonte{
+    color: white;
+    padding-top: 50px;
+    font-size: 30px; padding-left: 20px;
   }
-  .a:hover{
-    color: yellow;
-  }
-    .logo{
-      height: 80px;
-    }
+  li{
+    font-weight: 600;
+    font-size: 30px;
     
-  .flex{
+  }
+  .div{
+    width: 290px;
+    border-top-left-radius: 220px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    
+    padding-top: 20px;
+    padding-left: 25px;
     display: flex;
-  flex-direction: row;
-  padding-bottom: 70px;
+  }
+  .happy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+  }.div1{
+    width: 220px;
+  border-top-left-radius: 220px;
+  border-top-right-radius: 90px;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  }
+  .color{
+    background-color: rgb(0, 0, 0);
+  width: auto;
+  margin-left: -10px;
   
   }
-  .img{
-    width: 500px;
-   
-   border-radius: 50px;
+  .color1{
+    background-color:purple;
+   width: 101.3%;
+   margin-left: -10PX;
+  
   }
-  .text{
-    padding-left: 100px;
+  .van{margin-left: 150px;
+    margin-top: -100px;
+  
   }
-  .img:hover{
-    width: 600px;
-    transition: 3s;
+  
+  .h2{
+    color: white;
+    font-size: 30px;
+    padding-left: 50px;
   }
-  .conte{
-    padding-left: 200px;
-    background: rgba(0, 0, 255, 0.433);
-    padding-top: 40px;
+  .grid1{
+    display: grid;
+    grid-template-columns: 300px 200px;
+  }
+  ul{
+    list-style: none;
+    color: white;
+  
+  }
+  .kl> li+ li{
+    padding: 10px;
+  }
+  .button{
+    border-radius: 40px;
+    font-size: 35px;margin-left: 40px;
+  margin-bottom: 12px;
+  }
+  .button:hover{
+    background-color: rgba(255, 0, 0, 0.279);
+    color: white;
+  }
+  .happy1{
+    display: flex;
+    gap: 20px;
+  }
+  .fazemos{
+    font-size: 70px;
+    justify-content: center;
+    text-align: center;
+  }
+  .bg{
+    background-color: #2600ff;
     margin-left: -10px;
-   width: 86.8%;
+    width: 101.3%;
+  }
+  .sobre{
+    color: yellow;
+  padding-top: 20px;
+    padding-left: 90px;
+  }
+  
+  .font{
+    font-size: 40px;
+   margin-top: -20px;padding-left: 100px;
+   color: aliceblue;
+   font-weight: 800;
+  }
+  span{
+    color: rgb(0, 0, 0);
+  }
+  .font1{
+    font-weight: 800;
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .pi{
+    
+   margin-left: -30px;
+   padding-right: 90px;
+  }
+  span:hover{
+    color: #ff0000;
+  }
+  a:hover{
+  color: rgb(255, 196, 0);
+  }
+  .gf{
+  margin-top: 50px;
+  padding-left: 40px;
+  }
+  .gf1{
+    width: 69%;
+    padding-top: 40px;
+    
+  }
+  .logo{
+    height: 100px;
+    opacity: 0.5;
   }
   .p{
-   font-size: 20px;
+    color: black;
+    border: 1px solid #ff000073;
+    border-radius: 50px;
+  margin-right: 60px;
+  box-shadow:2px 2px 2px 2px;
+  padding: 30px;
+  border-color: #ff000073;
+  margin-left: 100px;
+  background-color: #ff000073;
   }
-  button{
-    background-color: #ff0000;
-    color: white;
-    padding: 10px;
-    border-color: red;
-    border-radius: 30px;
+  footer{
+    background-color: black;
+    width: 101.3%;
+    margin-left: -10px;
   }
   .logo1{
     width: 30%;
@@ -111,7 +205,6 @@ p{
     gap: 20px;
   }
   
-  
   .logo12{
     width: 14%;
   padding-left:20px ;
@@ -119,58 +212,98 @@ p{
   .pg{
     color: white;
   }
-  footer{
-    background: black;
-    height: 280px;
-    margin-left: -8px;
-    width: 101.5%;
-  }
-  
-    @media(min-width:300px) and ( max-width:511px){
-  .flex{
-  display: flex;
-  flex-direction: column;
-  }
-  .conte{
-    padding-left: 0px;
-    width: 104.9%;
-  
-  }
-  
-  
+  .header-bg {
 
-  .text{
-    margin-left: -50px;
-  }
-  
-  .grid2{
+    width: 1349.4px;
+    margin-left: -8px;
+    }  .header {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-between;
+       margin-top: -10px;
+       background-color: black;
+      
+       
+      }  
+      .header-menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        list-style: none;
+        padding-right: 20px;
+        padding-top: 30px;
+       
+      }
+
+  @media(min-width:300px) and ( max-width:500px){
+   
+    .van{
+  display: none;
+    }
+    body{
+      width: 99%;
+    }
+    
+   .happy1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+   }
+   .imga{
+    height: 590px;
+    
+   }
+   .logo{
+   display: none;
+   
+   }
+   .header-menu{
+    font-size: 20px;
+    margin-top: -10px;
+    padding-top: -30px;
+   }
+   li{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+   }
+   ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+   }
+   .grid1{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .grid2{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 790px;
+   }
+   .grid{
     display: grid;
     grid-template-columns: 1fr;
    
-    margin-left: -10px;
-  
-    height: 800px;
-    padding-left: 35px;
-  }
-  .conte{
-  width: 100.5vw;
-  }
-  .header{
+   }
+   .bg{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .happy{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .gf{
+    width: 300px;
+    padding-left: 30px;
+   }
+   .gf1{
+    padding-left: 50px;
+   }
+   .header{
     width: 100vw;
   }
-  footer{
-    width: 100%;
-    background: black;
-    height: 100vh;
-  }
-  ul,li{
-    padding-left: 20px;
-    text-align: center;
-    
-  }
-  a{
-    text-decoration: none;
-  }
-     }
   
-  
+  }
