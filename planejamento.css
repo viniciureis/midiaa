@@ -87,289 +87,43 @@ p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-@media(min-width:300px) and ( max-width:511px){
-  .header{
-    width: 100vw;
-  }
-  .grid2{
-    display: grid;
-    grid-template-columns: 1fr;
-    background: black;
-    margin-left: -10px;
-    width: 90%;
-    height: 840px;
-    padding-left: 35px;
-  }
-  .conte{
-  width: 100.5vw;
-  }
-  .header{
-    width: 100vw;
-  }
-  footer{
-    width: 100%;
-    background: black;
-    height: 840px;
-  }
-  ul,li{
-    padding-left: 20px;
-    text-align: center;
-    
-  }
-  a{
-    text-decoration: none;
-  }
-  #p{
-    padding-left: 0px;
-    padding-right:10px ;
-  }
-  .h2{
- margin-left: 0px;
-  }
-  .logo{
-    display: none;
-  }
-  .grid2{
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .van{
-    display: none;
-      }
-  
-      
-     .happy1{
-      display: flex;
-      flex-direction: column;
-      padding-left: 10px;
-     }
-     .imga{
-      height: 590px;
-      
-     }
-     .logo{
-     display: none;
-     
-     }
-     .header-menu{
-      font-size: 20px;
-      margin-top: -10px;
-      padding-top: -30px;
-     }
-     li{
-      font-size: 20px;
-      display: flex;
-      flex-direction: row;
-     }
-     ul{
-      display: flex;
-      flex-direction: row;
-      font-size: 30px;
-     }
-     .grid1{
-      display: grid;
-      grid-template-columns: 1fr;
-     }
-     .grid2{
-      display: grid;
-      grid-template-columns: 1fr;
-   
-     }
-     .grid{
-      display: grid;
-      grid-template-columns: 1fr;
-     
-     }
-     .bg{
-      display: grid;
-      grid-template-columns: 1fr;
-     }
-     .happy{
-      display: grid;
-      grid-template-columns: 1fr;
-     }
-     .gf{
-      width: 300px;
-      padding-left: 30px;
-     }
-     .gf1{
-      padding-left: 50px;
-     }
-    p{
-      padding-left: 5px;
-    }
-    .a{
-      padding-top: 30px;
-    }
-    .header{
-      width: 100vw;
-    }
-    footer{
-      background-color: black;
-      width: 97%;
-      height:840px ;
-      padding-left: 30px;
-    }
-}
-     
-  
 
-
-.header-bg {
-
-  width: 101.2%;
-  margin-left: -8px;
-  }
-  body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  .header {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: space-between;
-   margin-top: -10px;
-   background-color: black;
-  
-   
-  }
-  
-  .header-menu {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    list-style: none;
-    padding-right: 20px;
-    
-   
-  }
-.a{
-  text-decoration: none;
-color: aqua;
-}
-.a:hover{
-  color: yellow;
-}
-  .logo{
-    height: 80px;
-  }
-  
-.flex{
-  display: flex;
-flex-direction: row;
-padding-bottom: 70px;
-
-}
-.img{
-  width: 500px;
- 
- border-radius: 50px;
-}
-.text{
-  padding-left: 100px;
-}
-.img:hover{
-  width: 600px;
-  transition: 3s;
-}
-.conte{
-  padding-left: 200px;
-  background: rgba(0, 0, 255, 0.433);
-  padding-top: 40px;
-  margin-left: -10px;
- width: 86.8%;
-}
-.p{
- font-size: 20px;
-}
-button{
-  background-color: #ff0000;
-  color: white;
-  padding: 10px;
-  border-color: red;
-  border-radius: 30px;
-}
-.logo1{
-  width: 30%;
-}
-.font2{
-  color: aliceblue;
-}
-.pg{
-  font-size: 15px;
-  margin-left: -20px;
-}
-.grid2{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 20px;
-}
-
-
-.logo12{
-  width: 14%;
-padding-left:20px ;
-}
-.pg{
-  color: white;
-}
-footer{
-  background: black;
-  height: 280px;
-  margin-left: -8px;
-  width: 101.5%;
-}
 
   @media(min-width:300px) and ( max-width:511px){
-.flex{
-display: flex;
-flex-direction: column;
-}
-.conte{
-  padding-left: 0px;
-  width: 104.9%;
-
-}
-
-
-.img{
-  width: 150px;
- margin-left: 40px;
-}
-.img:hover{
-  width: 350px;
-}
-.text{
-  margin-left: -50px;
-}
 
 .grid2{
   display: grid;
   grid-template-columns: 1fr;
-  background: black;
-  margin-left: -10px;
- 
-  height: 800px;
-  padding-left: 35px;
-}
-.conte{
-width: 100.5vw;
-}
-.header{
+  width: 100%;
+  margin: 0;
+ }
+ .header-bg{
   width: 100vw;
+  background-color: black;
+ }
+.pg{
+padding-left: 50px;
 }
-footer{
-  width: 100vw;
-  background: black;
-  height: 100vh;
+.logo{
+display: none;
 }
-ul,li{
-  padding-left: 20px;
-  text-align: center;
-  
+.header-menu{
+padding-left: 40px;
+font-size: 15px;
+padding-bottom: 10px;
 }
-a{
-  text-decoration: none;
+#p{
+  padding: 0px;
+}
+h1{
+  margin: 0px;
+  padding: 0px;
+}
+.h2{
+  margin-left: 0px;
+}
+.pg{
+  padding-left: 30px;
 }
    }
 
