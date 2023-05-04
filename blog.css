@@ -68,6 +68,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       gap: 20px;
+      background-color: rgb(169, 139, 240);
     }
     
     .pg{
@@ -115,10 +116,11 @@
       }
       
       footer{
-        background-color: black;
+       
         width: 101.3%;
         margin-left: -10px;
         height: 100vh;
+        background-color: rgb(169, 139, 240);
       }
       .logo1{
         width: 30%;
@@ -229,9 +231,9 @@
           width: 100vw;
         }
         footer{
-          background-color: black;
+          background-color: rgb(169, 139, 240);
           width: 97%;
-          height:840px ;
+          height:940px ;
           padding-left: 30px;
         }
     }
