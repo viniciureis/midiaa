@@ -69,3 +69,34 @@ ul{
     margin-top: -120px;
     padding-bottom: 100px;padding-left: 900px;
    }
+   @media(min-width:300px) and ( max-width:500px){
+    .grid2{
+     display: grid;
+     grid-template-columns: 1fr;
+     width: 100%;
+     margin: 0;
+    }
+    *{
+    margin: 0;
+   
+    }
+    .header-bg{
+     width: 101.9%;
+     background-color: black;
+    }
+ .pg{
+   padding-left: 50px;
+ }
+ .logo{
+   display: none;
+ }
+ .header-menu{
+   padding-left: 40px;
+   font-size: 15px;
+   padding-bottom: 10px;
+ }
+ .hj{
+   padding-left: 50px;
+   margin-top: 0px;
+ }
+   }
