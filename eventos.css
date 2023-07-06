@@ -71,6 +71,10 @@ li{
   margin-top: -120px;
   padding-bottom: 100px;padding-left: 900px;
  }
+ .img{
+  width: 50%;
+ padding-left: 250px;
+ }
 
   @media(min-width:300px) and ( max-width:500px){
    .grid2{
