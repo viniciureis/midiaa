@@ -69,228 +69,329 @@ li{
   grid-template-columns: 1fr 1fr;
  
 }
-p{
-  font-size: 25px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;padding-left: 20px;
-}
-
-.div1{
-  width: 220px;
-border-top-left-radius: 220px;
-border-top-right-radius: 90px;
-border-bottom-left-radius: 90px;
-border-bottom-right-radius: 90px;
-}
-.color{
-  background-color: rgb(0, 0, 0);
-width: auto;
-margin-left: -10px;
-
-}
-.color1{
-  background-color:purple;
- width: 101.3%;
- margin-left: -10PX;
-
-}
-.van{margin-left: 150px;
-  margin-top: -100px;
-
-}
-
-.h2{
-  color: white;
-  font-size: 30px;
-  padding-left: 50px;
-}
-.grid1{
-  display: grid;
-  grid-template-columns: 300px 200px;
-}
-ul{
-  list-style: none;
-  color: white;
-
-}
-.kl> li+ li{
-  padding: 10px;
-}
-.button{
-  border-radius: 40px;
-  font-size: 35px;margin-left: 40px;
-margin-bottom: 12px;
-}
-.button:hover{
-  background-color: rgba(255, 0, 0, 0.279);
-  color: white;
-}
-.happy1{
-  display: flex;
-  gap: 20px;
-}
-.fazemos{
-  font-size: 70px;
-  justify-content: center;
-  text-align: center;
-}
-.bg{
-  background-color: #2600ff;
-  margin-left: -10px;
-  width: 101.3%;
-}
-.sobre{
-  color: yellow;
-padding-top: 20px;
-  padding-left: 90px;
-}
-
-.font{
-  font-size: 40px;
- margin-top: -20px;padding-left: 100px;
- color: aliceblue;
- font-weight: 800;
-}
-span{
-  color: rgb(0, 0, 0);
-}
-.font1{
-  font-weight: 800;
-  color: aliceblue;
-  font-size: 40px;
-}
-.pi{
-  
- margin-left: -30px;
- padding-right: 90px;
-}
-span:hover{
-  color: #ff0000;
-}
-a:hover{
-color: rgb(255, 196, 0);
-}
-.gf{
-margin-top: 50px;
-padding-left: 40px;
-}
-.gf1{
-  width: 69%;
-  padding-top: 40px;
-  
-}
-.logo{
-  height: 100px;
-  opacity: 0.5;
-}
-.p{
-  color: black;
-  border: 1px solid #ff000073;
-  border-radius: 50px;
-margin-right: 60px;
-box-shadow:2px 2px 2px 2px;
-padding: 30px;
-border-color: #ff000073;
-margin-left: 100px;
-background-color: #ff000073;
-}
-footer{
-  background-color: black;
-  width: 101.3%;
-  margin-left: -10px;
-}
-.logo1{
-  width: 30%;
-}
-.font2{
-  color: aliceblue;
-}
-.pg{
-  font-size: 15px;
-  margin-left: -20px;
-}
-.grid2{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 20px;
-}
-
-.logo12{
-  width: 14%;
-padding-left:20px ;
-}
-.pg{
-  color: white;
-}
-@media(min-width:300px) and ( max-width:500px){
- 
-  .van{
-display: none;
+.header-bg {
+  margin-bottom: -100px;
+  width: 101.2%;
+  margin-left: -8px;
   }
   body{
-    width: 99%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+   margin-top: -10px;
+  
+   
   }
   
- .happy1{
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
+  .header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding-right: 20px;
+    
+   
+  }
+  a{
+  text-decoration: none;
+  color:#ff0000;
+  
+  }
+  .imga{
+    background: url(imgs/close-up-recording-video-with-smartphone-during-concert_compressed.jpg ); background-size: cover; 
+    background-repeat: no-repeat; height: 500px;background-position:  center ;
+  width: 101.2%;
+  margin-left: -8px;
+  margin-top: -10px;
+  
+  }
+  .fonte{
+    color: white;
+    padding-top: 50px;
+    font-size: 30px; padding-left: 20px;
+  }
+  li{
+    font-weight: 600;
+    font-size: 30px;
+    
+  }
+  .div{
+    width: 290px;
+    border-top-left-radius: 220px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    
+    padding-top: 20px;
+    padding-left: 25px;
+    display: flex;
+  }
+  .happy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+  }
+  p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;padding-left: 20px;
+  }
+  
+  .div1{
+    width: 220px;
+  border-top-left-radius: 220px;
+  border-top-right-radius: 90px;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  }
+  .color{
+    background-color: rgb(0, 0, 0);
+  width: auto;
+  margin-left: -10px;
+  
+  }
+  .color1{
+    background-color:purple;
+   width: 101.3%;
+   margin-left: -10PX;
+  
+  }
+  .van{margin-left: 150px;
+    margin-top: -100px;
+  
+  }
+  
+  .h2{
+    color: white;
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  .grid1{
+    display: grid;
+    grid-template-columns: 300px 200px;
+  }
+  ul{
+    list-style: none;
+    color: white;
+  
+  }
+  .kl> li+ li{
+    padding: 10px;
+  }
+  .button{
+    border-radius: 40px;
+    font-size: 35px;margin-left: 40px;
+  margin-bottom: 12px;
+  }
+  .button:hover{
+    background-color: rgba(255, 0, 0, 0.279);
+    color: white;
+  }
+  .happy1{
+    display: flex;
+    gap: 20px;
+  }
+  .fazemos{
+    font-size: 70px;
+    justify-content: center;
+    text-align: center;
+  }
+  .bg{
+    background-color: #2600ff;
+    margin-left: -10px;
+    width: 101.3%;
+  }
+  .sobre{
+    color: yellow;
+  padding-top: 20px;
+    padding-left: 90px;
+  }
+  
+  .font{
+    font-size: 40px;
+   margin-top: -20px;padding-left: 100px;
+   color: aliceblue;
+   font-weight: 800;
+  }
+  span{
+    color: rgb(0, 0, 0);
+  }
+  .font1{
+    font-weight: 800;
+    color: aliceblue;
+    font-size: 40px;
+  }
+  .pi{
+    
+   margin-left: -30px;
+   padding-right: 90px;
+  }
+  span:hover{
+    color: #ff0000;
+  }
+  a:hover{
+  color: rgb(255, 196, 0);
+  }
+  .gf{
+  margin-top: 50px;
+  padding-left: 40px;
+  }
+  .gf1{
+    width: 69%;
+    padding-top: 40px;
+    
+  }
+  .logo{
+    height: 100px;
+    opacity: 0.5;
+  }
+  .p{
+    color: black;
+    border: 1px solid #ff000073;
+    border-radius: 50px;
+  margin-right: 60px;
+  box-shadow:2px 2px 2px 2px;
+  padding: 30px;
+  border-color: #ff000073;
+  margin-left: 100px;
+  background-color: #ff000073;
+  }
+  footer{
+    background-color: black;
+    width: 101.3%;
+    margin-left: -10px;
+  }
+  .logo1{
+    width: 30%;
+  }
+  .font2{
+    color: aliceblue;
+  }
+  .pg{
+    font-size: 15px;
+    margin-left: -20px;
+  }
+  .grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .logo12{
+    width: 14%;
+  padding-left:20px ;
+  }
+  .pg{
+    color: white;
+  }
+  @media(min-width:300px) and ( max-width:500px){
+   
+    .van{
+  display: none;
+    }
+    body{
+      width: 99%;
+    }
+    
+   .happy1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+   }
+   .imga{
+    height: 590px;
+    
+   }
+   .logo{
+   display: none;
+   
+   }
+   .header-menu{
+    font-size: 20px;
+    margin-top: -10px;
+    padding-top: -30px;
+   }
+   li{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+   }
+   ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+   }
+   .grid1{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .grid2{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 790px;
+   }
+   .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+   }
+   .bg{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .happy{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .gf{
+    width: 300px;
+    padding-left: 30px;
+   }
+   .gf1{
+    padding-left: 50px;
+   }
+  p{
+    padding-left: 50px;
+  }
+  
+  }
+  
+
+@media (min-width:1400px) {
+  
+ footer{
+  width: 99vw;
+ }
+ .header{
+  width: 96vw;
+ }
+ .bg{
+  width: 96vw;
  }
  .imga{
-  height: 590px;
-  
+  width: 99.1vw;
  }
- .logo{
- display: none;
- 
- }
- .header-menu{
-  font-size: 20px;
-  margin-top: -10px;
-  padding-top: -30px;
- }
- li{
-  font-size: 20px;
-  display: flex;
-  flex-direction: row;
- }
- ul{
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
- }
- .grid1{
-  display: grid;
-  grid-template-columns: 1fr;
- }
- .grid2{
-  display: grid;
-  grid-template-columns: 1fr;
-  height: 790px;
- }
- .grid{
-  display: grid;
-  grid-template-columns: 1fr;
+ .happy{
+ width: 98vw;
  
  }
  .bg{
-  display: grid;
-  grid-template-columns: 1fr;
+  width: 99vw;
  }
- .happy{
-  display: grid;
-  grid-template-columns: 1fr;
+ .color1{
+  width: 99.1vw;
  }
- .gf{
-  width: 300px;
-  padding-left: 30px;
+ main{
+  width: 97.9vw;
  }
- .gf1{
-  padding-left: 50px;
- }
-p{
-  padding-left: 50px;
-}
 
 }
-
