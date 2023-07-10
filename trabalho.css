@@ -140,7 +140,9 @@ flex-direction: column;
 }
 .conte{
 width: 93vw;
-}
+}  .tamanho{
+  width: 100vw;
+ }
 .header{
   width: 100vw;
 }
