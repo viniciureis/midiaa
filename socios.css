@@ -1,0 +1,106 @@
+header{
+  background: black;
+  width: 98.9vw;
+}
+.socios{
+  margin-top: -30px;
+  width: 98.8vw;
+  margin-left: -9px;
+  height:400px;
+}
+.pf{
+  font-size: larger;
+}
+.associado{
+  margin-top: -350px;
+  padding-left: 250px;
+  color: white;
+ 
+}
+button{
+ background-color: blue;
+ color: white;
+ border-color: blue;
+ font-size: 1.5em;
+}
+button:hover{
+  background-color: red;
+  border-color: red;
+}
+h2{
+  font-size: 30px;
+}
+.experiencia{
+  margin-top: 250px;
+}
+.veja{
+  display: flex;
+gap: 550px;
+}
+h4{
+  margin-top: -1px;
+  font-size: 20px;
+}
+.flex{
+  display: flex;
+
+ }
+
+  .flex2{
+    display: flex;
+    gap: 40px;
+  }
+  .bk{
+    background: blue;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 39px;
+  }.pf1{
+    font-size: 17px;
+  }
+  
+  p{
+    font-size: 15px;
+    
+  }
+  p+p{
+    padding-top: 20px;
+  }
+  
+  spam{
+    font-size: 20px;
+    
+  
+  }
+  .modal{
+    text-align: center;
+  }
+  .mg{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .contei{
+    text-align: center;
+  
+    padding: 20px;
+  }
+  h4{
+    padding-left: 160px;
+    color: blue;
+  }
+  #socios{
+    background-color: rgba(0, 0, 0, 0.468);
+    margin-left: -8px;
+ margin-bottom: -20px;
+ width: 98.72vw;
+   
+  }
+  h2{
+    color: white;
+  }
+  h3{
+    color: blue;
+  }
+ 
