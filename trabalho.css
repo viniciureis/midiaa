@@ -137,7 +137,7 @@ flex-direction: column;
   padding-left: 35px;
 }
 .conte{
-width: 99vw;
+width: 99.4vw;
 }  
 .header{
   width: 100vw;
@@ -168,13 +168,13 @@ a{
       width: 99vw;
     }
   .header-bg {
-    width: 98.9vw;}
+    width: 100vw;}
 
     footer{
-      width: 98.9vw;
+      width: 100vw;
     }
     .conte{
-      width: 87.6vw;
+      width: 100vw;
     }
    }
 
