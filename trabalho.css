@@ -55,15 +55,13 @@ color: aqua;
   width: 600px;
   transition: 3s;
 }
-.tamanho{
-  width: 97.3vw;
-}
+
 .conte{
   padding-left: 200px;
   background: rgba(0, 0, 255, 0.433);
   padding-top: 40px;
   margin-left: -10px;
- width: 86.8%;
+ width: 82.8vw;
 }
 .p{
  font-size: 20px;
@@ -139,10 +137,8 @@ flex-direction: column;
   padding-left: 35px;
 }
 .conte{
-width: 93vw;
-}  .tamanho{
-  width: 100vw;
- }
+width: 99vw;
+}  
 .header{
   width: 100vw;
 }
@@ -164,15 +160,21 @@ a{
 
 
 
-   @media(min-width:1600px) {
+   @media(min-width:1600px)  {
+    *{
+      margin: 0px;
+    }
     .tamanho{
       width: 99vw;
     }
   .header-bg {
-    width: 99vw;}
+    width: 98.9vw;}
 
     footer{
-      width: 99vw;
+      width: 98.9vw;
+    }
+    .conte{
+      width: 87.6vw;
     }
    }
 
