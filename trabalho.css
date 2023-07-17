@@ -160,12 +160,12 @@ a{
 
 
 
-   @media(min-width:1600px)  {
+   @media(min-width:1500px)  {
     *{
       margin: 0px;
     }
     .tamanho{
-      width: 99vw;
+      width: 95vw;
     }
   .header-bg {
     width: 100vw;}
@@ -175,6 +175,9 @@ a{
     }
     .conte{
       width: 100vw;
+    }
+    li+li{
+      padding-bottom: 20px;
     }
    }
 

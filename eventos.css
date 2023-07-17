@@ -19,6 +19,7 @@ ul{
 #p{
     padding-left: 50px;
     font-size: 24px;
+    padding-right: 30px;
 
 }
 .h2{
@@ -75,6 +76,10 @@ li{
   width: 50%;
  padding-left: 250px;
  }
+ span{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+ }
 
   @media(min-width:300px) and ( max-width:500px){
    .grid2{
@@ -93,6 +98,7 @@ li{
    }
 .pg{
   padding-left: 50px;
+ 
 }
 .logo{
   display: none;
