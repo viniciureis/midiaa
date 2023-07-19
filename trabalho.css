@@ -61,7 +61,7 @@ color: aqua;
   background: rgba(0, 0, 255, 0.433);
   padding-top: 40px;
   margin-left: -10px;
-  width: 95.7vw;
+  width: 82.72vw;
 }
 .p{
  font-size: 20px;
@@ -164,18 +164,16 @@ a{
     *{
       margin: 0px;
     }
-    .tamanho{
-      width: 95vw;
-    }
+  
   .header-bg {
     width: 100vw;}
 
     footer{
       width: 100vw;
     }
-    .conte{
-      width: 100vw;
-    }
+  .conte{
+    width: 88.5vw;
+  }
     li+li{
       padding-bottom: 20px;
     }
