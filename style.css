@@ -294,6 +294,9 @@ li{
   .pg{
     color: white;
   }
+  .bg1{
+    background-color: #2600ff;
+  }
   @media(min-width:300px) and ( max-width:500px){
    
     .van{
