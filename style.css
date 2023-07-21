@@ -299,7 +299,7 @@ li{
   }
   @media(min-width:300px) and ( max-width:500px){
    
-    .van{
+    .va{
   display: none;
     }
     body{
