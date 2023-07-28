@@ -1,0 +1,27 @@
+p{
+  color: black;
+}
+.sobre{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10PX;
+}
+h1{
+  color: black;
+}
+.paragrafo{
+  font-size: 1.5rem;
+  margin-left: -20PX;
+}
+.fonte3{
+  color: white;
+}
+.gray{
+  background-color: rgba(128, 128, 128, 0.27);
+  width: 99vw;
+  margin-left: -10px;
+  padding-top: 20px;
+}
+.calendar{
+  width: 50%;
+}
