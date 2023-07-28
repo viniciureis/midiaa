@@ -25,3 +25,35 @@ h1{
 .calendar{
   width: 50%;
 }
+
+@media (min-width:300px){
+  *{
+    margin-left: 0px;
+  }
+  
+  .sobre{
+    display: flex;
+   flex-direction: column;
+  }
+  li{
+    font-size: 13px;
+  }
+  .gray{
+    width: vw;
+  }
+  .img1{
+    width: 93vw;
+  }
+  header{
+    width: 99vw;
+  }
+  .paragrafo{
+    margin-left: -120px;
+  
+
+  }
+.imga1{
+  height: 290px;
+  width: 290px;
+}
+}
