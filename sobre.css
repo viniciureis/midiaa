@@ -18,7 +18,7 @@ h1{
 }
 .gray{
   background-color: rgba(128, 128, 128, 0.27);
-  width: 98vw;
+  width: 98.9vw;
   margin-left: -10px;
   padding-top: 20px;
 }
@@ -39,7 +39,7 @@ h1{
     font-size: 13px;
   }
   .gray{
-    width: vw;
+    
   }
   .img1{
     width: 93vw;
