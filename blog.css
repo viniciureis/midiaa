@@ -159,6 +159,10 @@
       .pg{
         color: white;
       }
+      .border1:hover{
+        background-color: blue;
+      }
+   
     
       @media(min-width:300px) and ( max-width:511px){
       .div{
