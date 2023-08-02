@@ -162,7 +162,9 @@
       .border1:hover{
         background-color: blue;
       }
-   
+   .div{
+    margin-bottom: 30px;
+   }
     
       @media(min-width:300px) and ( max-width:511px){
       .div{
