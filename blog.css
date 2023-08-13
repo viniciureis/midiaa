@@ -258,7 +258,13 @@
         }
     }
     
-    
+    .pagina{
+      background-color: blue;
+      color: white;
+      padding: 10px;
+      align-items: end;
+      margin-left: 600px;
+    }
     
     
     
