@@ -165,9 +165,18 @@
    .div{
     margin-bottom: 30px;
    }
-    
+   .pagina{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    align-items: end;
+    margin-left: 600px;
+  }
+
       @media(min-width:300px) and ( max-width:511px){
-       
+       a{
+        margin-left: 0px; padding-left: 0px;
+       }
       .div{
         display: grid;
        grid-template-columns: 1fr;
@@ -258,18 +267,11 @@
           padding-left: 30px;
         }
         .pagina{
-          margin-left: 0px;
+        margin-left: 125px;
           align-items: center;
         }
     }
     
-    .pagina{
-      background-color: blue;
-      color: white;
-      padding: 10px;
-      align-items: end;
-      margin-left: 600px;
-    }
  
     
     
