@@ -167,6 +167,7 @@
    }
     
       @media(min-width:300px) and ( max-width:511px){
+       
       .div{
         display: grid;
        grid-template-columns: 1fr;
@@ -256,6 +257,10 @@
           height:940px ;
           padding-left: 30px;
         }
+        .pagina{
+          margin-left: 0px;
+          align-items: center;
+        }
     }
     
     .pagina{
@@ -265,6 +270,7 @@
       align-items: end;
       margin-left: 600px;
     }
+ 
     
     
     

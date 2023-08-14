@@ -121,7 +121,7 @@ flex-direction: column;
  margin-left: 40px;
 }
 .img:hover{
-  width: 350px;
+  width: 240px;
 }
 .text{
   margin-left: -50px;
@@ -155,6 +155,17 @@ ul,li{
 a{
   text-decoration: none;
 }
+.feira{
+  width: 99%;
+}
+.flex1{
+  display: flex;
+  flex-direction: column-reverse;
+  padding-left: 50px;
+}
+.img1:hover{
+  width: 140px;
+}
    }
 
 
@@ -179,7 +190,14 @@ a{
     }
    }
 
-
+.feira{
+  padding-top: 20px;padding-right: 20px;
+}
+.grid1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
 
 
 
