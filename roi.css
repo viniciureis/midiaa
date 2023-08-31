@@ -1,0 +1,12 @@
+ul{
+  margin-left: -220px;
+
+}
+li{
+margin-left: 30px;
+}
+@media(min-width:300px) and (max-width:500px){
+  ul,li{
+    margin: 0px;
+  }
+}

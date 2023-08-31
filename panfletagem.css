@@ -16,6 +16,9 @@ margin-right: 30px;border-radius: 4px;
   padding-top: 20px;padding-bottom: 20px;
   border-radius: 30px;
 }
+.pi{
+  padding-left: 20px;
+}
 @media(min-width:300px) and (max-width:500){
   .img1{
     width: 10px;
