@@ -25,7 +25,20 @@ h1{
 .calendar{
   width: 50%;
 }
-
+.valores{
+  width: 90%;
+  border-radius: 30px; padding-left: 20px;
+}
+footer{
+  margin-bottom: -8px;
+}
+button{
+  background-color: blue;
+  color: white;
+  border-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+}
 @media (min-width:300px) and (max-width:500px){
   *{
     margin-left: 0px;
@@ -53,5 +66,8 @@ h1{
 .imga1{
   height: 290px;
   width: 99vw;
+}
+footer{
+  margin-bottom: 0px;
 }
 }
