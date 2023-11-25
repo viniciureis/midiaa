@@ -1,35 +1,26 @@
-.header-bg {
-margin-bottom: -100px;
-width: 101.2%;
-margin-left: -8px;
+*{
+  padding: 0;
+  margin: 0;
 }
 body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+header {
+  display: flex;
+  border: 2px solid black;
+}
+
+
 .header {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: space-between;
- margin-top: -10px;
-
- 
+  width: 100vw;
+  background-color: purple;
 }
 
-.header-menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  list-style: none;
-  padding-right: 20px;
-  
- 
+.nav-link {
+  color: #fff;
 }
-a{
-text-decoration: none;
-color:#5900ff;
 
-}
 .imga{
   background: url(imgs/close-up-recording-video-with-smartphone-during-concert_compressed.jpg ); background-size: cover; 
   background-repeat: no-repeat; height: 500px;background-position:  center ;
@@ -311,7 +302,7 @@ li{
   display: none;
     }
     body{
-      width: 99%;
+      width: 100vw;
     }
     
    .happy1{
@@ -395,31 +386,29 @@ li{
 @media (min-width:1400px) {
   
  footer{
-  width: 99vw;
+  width: 100vw;
  }
- .header{
-  width: 96vw;
- }
+
  .bg{
-  width: 96vw;
+  width: 100vw;
  }
  .imga{
-  width: 99.1vw;
+  width: 100vw;
  } .imga1{
-  width: 99.1vw;
+  width: 100vw;
  }
  .happy{
- width: 98vw;
+ width: 100vw;
  
  }
  .bg{
-  width: 99vw;
+  width: 100vw;
  }
  .color1{
-  width: 99.1vw;
+  width: 100vw;
  }
  main{
-  width: 97.9vw;
+  width: 100vw;
  }
 
 }

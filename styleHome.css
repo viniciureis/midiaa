@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    margin-bottom: -7rem;
+    height: 5rem;
+    display: flex;
+    gap: .85rem;
+    justify-content: space-around;
+
+}
+
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div>ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 2.5rem;
+}
+
+li>a {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+section.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 100vw;
+    height: 1024px;
+    top: 1061px;
+    left: -649px;
+    flex-shrink: 0;
+    background: url(./home_imgs/diversao\ 1.png), lightgray 50% / cover scroll;
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+}
+
+section.main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+
+section.main p {
+    width: 609px;
+    height: 60px;
+    top: 739px;
+    left: 406px;
+
+    color: #fff;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+button.btn_main {
+    background-color: #FFEB37;
+    width: 250px;
+    height: 60px;
+    top: 847px;
+    left: 595px;
+    padding: 20px, 30px, 20px, 30px;
+    border-radius: 15px;
+    gap: 10px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+section.second {
+    align-items: center;
+    display: flex;
+    width: 100vw;
+    height: 256px;
+    top: 2085px;
+    left: -649px;
+    background: linear-gradient(268.87deg, #196FAE 5.89%, #CFBA00 98%);
+}
+
+div.container {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@media(max-width: 413px) {
+    li>a {
+        font-size: xx-small;
+    }
+}
+
+@media(max-width: 825.98px) {
+
+    nav {
+        justify-content: center;
+        margin-bottom: -5rem;
+    }
+
+    div>ul {
+        gap: 1.25rem;
+    }
+
+    li>a {
+        font-size: large;
+    }
+
+
+    #logo_nav {
+        display: none;
+    }
+}
+
+@media(min-width: 1500px) {
+    section.main {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+}
