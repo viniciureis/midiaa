@@ -1,37 +1,46 @@
-*{
-  padding: 0;
-  margin: 0;
+.header-bg {
+margin-bottom: -100px;
+width: 101.2%;
+margin-left: -8px;
 }
 body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-header {
-  display: flex;
-  border: 2px solid black;
-}
-
-
 .header {
-  width: 100vw;
-  background-color: purple;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+ margin-top: -10px;
+
+ 
 }
 
-.nav-link {
-  color: #fff;
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding-right: 20px;
+  
+ 
 }
+a{
+text-decoration: none;
+color:#5900ff;
 
+}
 .imga{
-  background: url(imgs/close-up-recording-video-with-smartphone-during-concert_compressed.jpg ); background-size: cover; 
-  background-repeat: no-repeat; height: 500px;background-position:  center ;
-width: 101.2%;
+  background: url(imgs/diversão.png ); background-size: cover; 
+  background-repeat: no-repeat; height: 00px;background-position:  center ;
+width: 100.2%;
 margin-left: -8px;
 margin-top: -10px;
 
 }
 .fonte{
   color: white;
-  padding-top: 50px;
+  padding-top: 150px;
   font-size: 30px; padding-left: 20px;
 }
 li{
@@ -50,11 +59,7 @@ li{
   padding-left: 25px;
   display: flex;
 }
-.happy{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
+
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -64,6 +69,9 @@ li{
   margin-bottom: -100px;
   width: 101.2%;
   margin-left: -8px;
+  }
+  .h-100{
+    height: 100vh;
   }
   body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -76,6 +84,10 @@ li{
    margin-top: -10px;
   
    
+  }
+  .pi{
+    font-size: 15px;
+padding-left: 20px;
   }
   
   .header-menu {
@@ -94,17 +106,18 @@ li{
   
   }
   .imga{
-    background: url(imgs/close-up-recording-video-with-smartphone-during-concert_compressed.jpg ); background-size: cover; 
-    background-repeat: no-repeat; height: 500px;background-position:  center ;
-  width: 101.2%;
-  margin-left: -8px;
-  margin-top: -10px;
+    background: url(imgs/diversão.png); background-size: cover; 
+    background-repeat: no-repeat; height: 700px;background-position:  center center ;
+ 
+  
+  background-size: cover;
+  
   
   }
   .fonte{
     color: white;
-    padding-top: 50px;
-    font-size: 30px; padding-left: 20px;
+    padding-top: 490px;
+    font-size: 30px; padding-left: 220px;
   }
   li{
     font-weight: 600;
@@ -135,7 +148,10 @@ li{
   p{
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;padding-left: 20px;
+   
+  }
+  .pad{
+    padding-left: 20px;
   }
   
   .div1{
@@ -152,9 +168,11 @@ li{
   
   }
   .color1{
-    background-color:purple;
-   width: 101.3%;
+    background:  linear-gradient(to right, yellow, rgb(0, 0, 235));
+   width: 100.5%;
    margin-left: -10PX;
+   padding-left: 10px;
+   height: 100px;
   
   }
   .van{margin-left: 150px;
@@ -296,13 +314,66 @@ li{
     font-size: 50px; padding-left: 10px;
     text-align: center;
   }
+  .bution{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: yellow;
+    border-color: yellow;
+ margin-left: 250px;
+  }
+  .bution:hover{
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    font-size: 20px;
+    transition: 1.4s;
+    transition-duration: 12;
+  }
+  .flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid white;
+    width: 97%;
+    height: 36%;
+    margin-top: 10px;padding: 2px;
+    border-radius: 30px;
+  }
+  .butio{
+    margin-top:50px;
+    margin-top: 9px;
+    margin-bottom: 120px;
+    background-color: yellow;
+    border-color: yellow;
+    margin-left: 50px;
+    margin-right: 20px;
+    padding: 14px;
+    border-radius: 20px;
+  }
+  .op{
+    font-size: 15px;padding-top: 10px;
+    padding-left: 20px;
+    color: white;
+  }
+  .butio:hover{
+    background-color: #2600ff;
+    border-color: #2600ff;
+    color: white;
+  }
+  .colori{
+    background-color: blue;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+  }
   @media(min-width:300px) and ( max-width:500px){
    
     .va{
   display: none;
     }
     body{
-      width: 100vw;
+      width: 99%;
     }
     
    .happy1{
@@ -386,29 +457,31 @@ li{
 @media (min-width:1400px) {
   
  footer{
-  width: 100vw;
+  width: 99vw;
  }
-
+ .header{
+  width: 96vw;
+ }
  .bg{
-  width: 100vw;
+  width: 96vw;
  }
  .imga{
-  width: 100vw;
+  width: 99.1vw;
  } .imga1{
-  width: 100vw;
+  width: 99.1vw;
  }
  .happy{
- width: 100vw;
+ width: 98vw;
  
  }
  .bg{
-  width: 100vw;
+  width: 99vw;
  }
  .color1{
-  width: 100vw;
+  width: 99.1vw;
  }
  main{
-  width: 100vw;
+  width: 97.9vw;
  }
 
 }
