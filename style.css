@@ -27,7 +27,7 @@ body{
 }
 a{
 text-decoration: none;
-color:#5900ff;
+color:#ffffff;
 
 }
 .imga{
@@ -111,7 +111,7 @@ padding-left: 20px;
   }
   a{
   text-decoration: none;
-  color:#5900ff;
+  color:#ffffff;
 
   
   }
@@ -396,11 +396,11 @@ padding-left: 20px;
       margin-top: -420px;
     }
     .onde{
-      margin-left: 0px;
+      margin-left: -200px;
       padding-left: 0px;
       font-size: 12px;
     }
-    .li{
+    .li,ul{
       display: flex;
    flex-direction: column-reverse;
     }
