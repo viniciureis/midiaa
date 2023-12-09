@@ -391,6 +391,9 @@ padding-left: 20px;
     body{
       width: 99%;
     }
+    .bution{
+      margin-left: 0px;
+    }
     
    .happy1{
     display: flex;
