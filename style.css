@@ -394,6 +394,15 @@ padding-left: 20px;
     .bution{
       margin-left: 0px;
     }
+    .onde{
+      margin-left: 0px;
+      padding-left: 0px;
+      font-size: 12px;
+    }
+    .li{
+      display: flex;
+   flex-direction: column-reverse;
+    }
     
    .happy1{
     display: flex;
