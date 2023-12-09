@@ -396,13 +396,13 @@ padding-left: 20px;
      display: none;
     }
     .onde{
-      margin-left: -200px;
-      padding-left: 0px;
-      font-size: 12px;
+     display: none;
+
     }
     .li,ul{
       display: flex;
    flex-direction: column-reverse;
+   padding-left: 10px;
     }
     
    .happy1{
