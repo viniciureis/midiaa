@@ -12,6 +12,12 @@ margin-left: 30px;
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.ebook{
+  width: 40%;
+  border-radius: 30px;
+  height: 150px;
+  margin-left: 250px;
+}
 @media(min-width:300px) and (max-width:500px){
   ul,li{
     margin: 0px;
