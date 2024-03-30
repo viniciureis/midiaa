@@ -1,3 +1,7 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 .header-bg {
 margin-bottom: -100px;
 width: 101.2%;
