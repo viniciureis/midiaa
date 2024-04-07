@@ -258,7 +258,7 @@ background-color: black;
 }
 .flet{
   display: grid;
-  grid-template-columns: 1fr 1fr  ;
+  grid-template-columns: 1fr 1fr  1fr ;
 }
   
 .bac{
@@ -288,10 +288,7 @@ background-color: black;
         padding-bottom: 0px;
         padding-right: 0px;
       }
-    .header-menu{
-      padding-left: 0px;
-      font-size: 8px;
-    }
+   
     .footer{
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -323,13 +320,14 @@ background-color: black;
     .header-bg{
       font-size: 8px;
     }
-    .header-menu ul li{
+    .header-menu ul li a{
       font-size: 8px;
     }
     .grid4{
       font-size: 10px;
     }
     .loho{
+      padding-top: 30px;
       margin-left: 0px;
     }
     .tert{
