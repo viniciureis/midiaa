@@ -66,17 +66,7 @@ background-color: black;
   .colorto{
     background-color: #F1F1F1;
   }
-  .div{
-    width: 290px;
-    border-top-left-radius: 220px;
-    border-top-right-radius: 90px;
-    border-bottom-left-radius: 90px;
-    border-bottom-right-radius: 90px;
-    
-    padding-top: 20px;
-    padding-left: 25px;
-    display: flex;
-  }
+  
   
   .grid{
     display: grid;
@@ -283,6 +273,10 @@ grid-template-columns: 1fr 1fr ;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-right: 0px;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
     
