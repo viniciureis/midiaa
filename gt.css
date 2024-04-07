@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  .header-bg {
+background-color: black;
+  width: 98.75vw;
+
+  }
+  body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+   margin-top: -10px;
+  
+   
+  }
+  .trt2{
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  
+  .header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding-right: 20px;
+    
+   
+  }
+  a{
+  text-decoration: none;
+  color:#ffffff;
+  
+  }
+  .imga{
+    background: url(imgs/diversão.png ); background-size: cover; 
+    background-repeat: no-repeat; height: 00px;background-position:  center ;
+  width: 100.2%;
+  margin-left: -8px;
+  margin-top: -10px;
+  
+  }
+  .fonte{
+    color: white;
+    padding-top: 150px;
+    font-size: 30px; padding-left: 20px;
+  }
+  li{
+    font-weight: 600;
+    font-size: 30px;
+    
+  }
+  .li{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: normal;
+    font-family: inherit;
+  }
+  .colorto{
+    background-color: #F1F1F1;
+  }
+  .div{
+    width: 290px;
+    border-top-left-radius: 220px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    
+    padding-top: 20px;
+    padding-left: 25px;
+    display: flex;
+  }
+  
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+   
+  }
+
+    .h-100{
+      height: 100vh;
+    }
+    body{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: space-between;
+  
+    
+     
+    }
+    .pi{
+      font-size: 15px;
+  padding-left: 20px;
+    }
+    
+    .header-menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      list-style: none;
+     padding-left: 800px;
+      padding-top: 20px;
+     margin-bottom: 10px;
+    }
+    a{
+    text-decoration: none;
+    color:#ffffff;
+  
+    
+    }
+    .imga{
+      background: url(imgs/diversão.png); background-size: cover; 
+      background-repeat: no-repeat; height: 700px;background-position:  center center ;
+   margin-top: 0.35px;
+    width: 99.34vw;
+    background-size: cover;
+    
+    
+    }
+    .back{
+        background-color: yellow;
+    }
+    .grid4{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        text-align: center;
+    }
+    .grid2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .evento{
+        width: 60%;padding-top: 20px;
+        border-radius: 25px;
+        padding-left: 10px;
+    }
+    .flex{
+        display: flex;
+        gap: 4px;
+    }
+    
+    .lg{
+        width: 4%;
+        
+    }
+    .grid3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .evento2{
+        width: 40%;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+   .trt{
+    font-size: 28px;
+    padding-top: 10px;
+   }
+ 
+    .sus{
+        width: 100%;padding-top: 20px;
+        margin-right: 10px;
+        padding-left: 10px;
+    }
+    .back2{
+        background: url(imgs/close-up-veins-exotic-leaf.jpg);
+        background-size: cover;
+        background-position: center ;
+        color: white;
+      
+        background-attachment: fixed;
+    }
+   .gf{
+    width: 25%;
+    height: 150px;padding-top: 5px;
+   }
+   .gf:hover{
+    width: 50%;
+    transition-duration: 2s;
+    height: 350px;
+   }
+    
+   .imagem {
+    filter: grayscale(100%);
+    transition: filter 0.10s ease;
+}
+
+/* Quando passa o mouse sobre a imagem, ela volta à cor original */
+.imagem:hover {
+    filter: grayscale(0%);
+}
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+   
+    
+     

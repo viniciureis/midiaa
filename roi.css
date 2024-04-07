@@ -1,6 +1,6 @@
 ul{
   margin-left: -220px;
-
+list-style: none;
 }
 li{
 margin-left: 30px;
@@ -17,6 +17,16 @@ body{
   border-radius: 30px;
   height: 150px;
   margin-left: 250px;
+}
+.hj{
+  display: flex;
+  text-align: end;
+  padding-left: 1090px;
+  color: white;
+  padding-top: 10px;
+}
+.hj a{
+  color: white;
 }
 @media(min-width:300px) and (max-width:500px){
   ul,li{
