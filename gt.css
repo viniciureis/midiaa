@@ -150,7 +150,8 @@ background-color: black;
         padding-left: 10px;
     }
     .flex{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 4px;
     }
     
@@ -289,10 +290,18 @@ background-color: black;
     .footer{
       display: grid;
       grid-template-columns: 1fr 1fr;
+      font-size: 8px;
     }
     .grid{
       display: grid;
       grid-template-columns: 1fr;
+    }
+    .flex{
+      display:  grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .sus{
+      width: 80%;
     }
     }
    
