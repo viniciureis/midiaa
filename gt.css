@@ -316,12 +316,14 @@ background-color: black;
     }
     .header{
       font-size: 8px;
+      padding-left: 0px;
     }
     .header-bg{
       font-size: 8px;
     }
-    .header-menu ul li a{
+    .header-menu {
       font-size: 8px;
+      margin-left: 0px;
       padding-left: 0px;
     }
     .grid4{
