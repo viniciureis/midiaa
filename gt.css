@@ -284,6 +284,15 @@ background-color: black;
       }
     .header-menu{
       padding-left: 0px;
+      font-size: 14px;
+    }
+    .footer{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .grid{
+      display: grid;
+      grid-template-columns: 1fr;
     }
     }
    
