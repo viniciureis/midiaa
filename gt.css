@@ -285,7 +285,7 @@ background-color: black;
       }
     .header-menu{
       padding-left: 0px;
-      font-size: 14px;
+      font-size: 8px;
     }
     .footer{
       display: grid;
@@ -301,6 +301,10 @@ background-color: black;
       grid-template-columns: 1fr 1fr 1fr;
     }
     .sus{
+      width: 80%;
+    }
+    .imga{
+      margin-left: 0px;
       width: 80%;
     }
     }
