@@ -297,8 +297,10 @@ background-color: black;
       width: 80%;
     }
     .imga{
-      margin-left: 220px;
+    
       width: 80%;
+      background-position: left center;
+      background-size: cover;
     }
     .gf{
       display: none;
