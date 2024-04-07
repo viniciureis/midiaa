@@ -191,9 +191,12 @@ background-color: black;
     margin-right: 20px;
    }
    .gf:hover{
-    width: 35%;
+    width: 40%;
     transition-duration: 2s;
     height: 350px;
+   }
+   .container{
+    width: 40vw;
    }
     
    .imagem {
@@ -251,7 +254,23 @@ background-color: black;
   border-radius: 10px;
   margin-left: 10px;
 }
-    
+.pdl{
+  padding-left: 20px;
+}
+.flet{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+  gap: 20px;
+}
+.md{
+  width: 50%;
+}
+.md2{
+  width: 50%;
+  height: 50px;
+ margin-top: -10px;
+  margin-left: -50px;
+}
     
     
    
