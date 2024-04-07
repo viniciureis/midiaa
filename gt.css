@@ -188,29 +188,69 @@ background-color: black;
    .gf{
     width: 25%;
     height: 150px;padding-top: 5px;
+    margin-right: 20px;
    }
    .gf:hover{
-    width: 50%;
+    width: 35%;
     transition-duration: 2s;
     height: 350px;
    }
     
    .imagem {
     filter: grayscale(100%);
-    transition: filter 0.10s ease;
+    transition: filter 0.10s ;
+   
+   width: 250px; height: 200px;
 }
 
 /* Quando passa o mouse sobre a imagem, ela volta à cor original */
 .imagem:hover {
     filter: grayscale(0%);
 }
+   .pd{
+    margin-left: 20px;
+   } 
     
-    
-    
-    
-      
-    
-    
+  .gray{
+    background-color: rgb(2, 2, 134);
+    color: white;
+  }  
+  .imagem2 {
+    filter: grayscale(100%);
+    transition: filter 0.10s ;
+   
+  
+}
+
+/* Quando passa o mouse sobre a imagem, ela volta à cor original */
+.imagem2:hover {
+    filter: grayscale(0%);
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: black;
+  color: white;
+}
+.logo1{
+  width: 50%;
+} 
+.logo12{
+  width: 50%;
+  
+}
+.flex2{
+  display: flex;
+}
+.buttom{
+  background-color: blue;
+  color: white;
+  border-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
     
     
     
