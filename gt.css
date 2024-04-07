@@ -264,11 +264,28 @@ background-color: black;
 }
 .flet{
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr  ;
 }
     
     
-    
+    @media(min-width:300px) and (max-width:640px){
+
+      *{
+        margin: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+      }
+    .header-menu{
+      padding-left: 0px;
+    }
+    }
    
     
      
