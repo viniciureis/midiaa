@@ -5,34 +5,19 @@
   .header-bg {
 background-color: black;
   width: 98.75vw;
-
+margin-bottom: -10px;
   }
   body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  .header {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: space-between;
-   margin-top: -10px;
-  
-   
-  }
+
   .trt2{
     font-size: 18px;
     padding-top: 20px;
   }
   
-  .header-menu {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    list-style: none;
-    padding-right: 20px;
-    
-   
-  }
+ 
+
   a{
   text-decoration: none;
   color:#ffffff;
@@ -84,15 +69,8 @@ background-color: black;
     body{
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-    .header {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-      justify-content: space-between;
-  
     
-     
-    }
+
     .pi{
       font-size: 15px;
   padding-left: 20px;
@@ -100,7 +78,8 @@ background-color: black;
     
     .header-menu {
       display: flex;
-      flex-wrap: wrap;
+      
+
       gap: 20px;
       list-style: none;
      padding-left: 800px;
@@ -314,10 +293,7 @@ background-color: black;
     .gf{
       display: none;
     }
-    .header{
-      font-size: 4px;
-      padding-left: 0px;
-    }
+    
     .header-bg{
       font-size: 4px;
     }
@@ -325,6 +301,7 @@ background-color: black;
       font-size: 4px;
       margin-left: 0px;
       padding-left: 0px;
+      gap: 0px;
     }
     .grid4{
       font-size: 10px;
