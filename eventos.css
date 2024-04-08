@@ -65,6 +65,7 @@ footer{
   }
   .heade ul{
     padding-left: 0px;
+    font-size: 15px;
   }
   .grid2{
     display: grid;
