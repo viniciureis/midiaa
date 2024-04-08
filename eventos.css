@@ -1,131 +1,67 @@
-.header-menu {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    list-style: none;
-    padding-right: 20px;
-    padding-top: 30px;
-   
-  }
-  .header-bg {
-
-    width: 1349.4px;
-    margin-left: -8px;
-    }
-    .fd{
-      text-align: center;
-    }
-ul{
-
-    font-size: 20px;
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heade ul {
+  display: flex;
+ 
+  gap: 20px;
+  padding-left: 820px;
+  list-style: none;
+  list-style-type: none;
+  text-align: end;
+  font-size: 30px;
+  color: white;
+}
+.header-bg{
+  background-color: black;
+  height: 50px;
+}
+.a{
+   color: white;
+   text-decoration: none;
+}
+.img1{
+  width: 98vw;
+  height: 350px;
 }
 #p{
-    padding-left: 50px;
-    font-size: 24px;
-    padding-right: 30px;
-
-}
-.h2{
-    padding-left: 20px;
-    margin-left: 20px;
-    margin-bottom: -10px;
-}
-a{
-    text-decoration: none;
-    color: blueviolet;
-}
-h1{
   padding-left: 50px;
+  padding-right: 50px;
+  font-size: 30px;
 }
-ul{
-  text-align: end;
+.fd{
+  padding-left: 150px;
+  padding-top: 50px;
 }
-p{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+span{
+  font-weight: bold;
 }
-
 .grid2{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 50px;
-  background-color: rgb(169, 139, 240);
-  margin-left: -10px;
-  width: 101%;
-
-}
-
-li{
-  color: white;
 }
 .logo1{
   width: 50%;
 }
 .logo12{
-  width: 30%;
-  padding: 20px;
-}
-.header-bg{
-  width: 98.78vw;
-  background-color: black;margin-top: -20px;
-  height: 50px;
- }
- .logo{
-  height: 150px;
-  display: flex;
-  display: none;
- }
- .img1{
-  width: 100%;
-  height: 450px;
-
- }
- span{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
- }
- .header-menu a{
-  margin-top: 400px;
-  color: white;
- }
-
-  @media(min-width:300px) and ( max-width:500px){
-   .grid2{
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
-    margin: 0;
-   }
-   *{
-   margin: 0;
-  
-   }
-   .header-bg{
-    width: 101.9%;
-    background-color: black;
-    height: 250px;
-   }
-.pg{
-  padding-left: 50px;
+  width: 20%;
+  display: grid;
  
 }
-.logo{
-  display: none;
-}
-.header-menu{
-  padding-left: 40px;
-  font-size: 15px;
-  padding-bottom: 10px;
-}
-.hj{
-  padding-left: 50px;
-  margin-top: 0px;
-}
-.img1{
-  width: 50%;
-  padding-left: 50px;
-}
-p{
-  padding-right: 10px;
+footer{
+  background-color: black;
+  color: white;
 }
 
+@media( min-width:300px) and (max-width:640px){
+  *{
+    margin: 0px;
+    padding: 0px;
   }
+  
+}
