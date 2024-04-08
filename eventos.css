@@ -70,8 +70,12 @@ footer{
   .grid2{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-size: 10px;
   }
   footer{
-    font-size: 15px;
+    font-size: 10px;
+  }
+  .fd{
+    padding-left: 50px;
   }
 }
