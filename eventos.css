@@ -25,7 +25,7 @@ body{
    text-decoration: none;
 }
 .img1{
-  width: 98vw;
+  width: 98.75vw;
   height: 350px;
 }
 #p{
@@ -56,6 +56,11 @@ span{
 footer{
   background-color: black;
   color: white;
+}
+.video{
+  width: 100%;
+
+  padding-top: 20px;
 }
 
 @media( min-width:300px) and (max-width:640px){
