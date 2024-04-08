@@ -63,5 +63,7 @@ footer{
     margin: 0px;
     padding: 0px;
   }
-  
+  .heade ul{
+    padding-left: 0px;
+  }
 }
