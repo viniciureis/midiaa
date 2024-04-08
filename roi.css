@@ -27,6 +27,12 @@ body{
 }
 .hj a{
   color: white;
+
+}
+.video{
+
+  height: 320px;
+ margin-left: 350px;
 }
 @media(min-width:300px) and (max-width:500px){
   ul,li{
