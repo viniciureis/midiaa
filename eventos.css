@@ -78,4 +78,7 @@ footer{
   .fd{
     padding-left: 50px;
   }
+  .video{
+    width: 50%;
+  }
 }
